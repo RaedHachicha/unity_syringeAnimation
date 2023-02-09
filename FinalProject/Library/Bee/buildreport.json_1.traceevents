@@ -1,0 +1,536 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1675181294061598, "dur": 1333204, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675181294061824, "dur": 1945, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675181294063770, "dur": 18538, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675181294082311, "dur": 455347, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675181294537660, "dur": 855419, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675181295393080, "dur": 1720, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675181295395030, "dur": 46, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1675181294395995, "dur": 128904, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675181294397037, "dur": 41295, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675181294510854, "dur": 3675, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675181294514531, "dur": 10363, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675181294515124, "dur": 9419, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675181294529504, "dur": 1381, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675181294528613, "dur": 2308, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675181295395117, "dur": 92, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1675181294569528, "dur":991, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675181294570525, "dur":37, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1675181294570570, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1675181294570583, "dur":338, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1675181294570946, "dur":484, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675181294571430, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675181295387239, "dur":148, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675181295387387, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675181295387397, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675181295387399, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675181295387403, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675181295387404, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675181295387409, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675181295387410, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675181295387428, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675181295387429, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675181295387432, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675181295387433, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675181295387438, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675181295387439, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675181295387442, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675181295387443, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675181295387446, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675181295387448, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675181295387472, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675181295387473, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675181295387478, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675181295387479, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675181295387482, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675181295387483, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675181295387487, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675181295387503, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675181295387512, "dur":1224, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1675181294570973, "dur":489, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675181294571464, "dur":2968, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675181294574441, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675181294574448, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675181294575005, "dur":324, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675181294575333, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675181294575349, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675181294575531, "dur":54724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675181294630257, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1675181294630356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675181294630362, "dur":2679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1675181294633110, "dur":39534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675181294672647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675181294672653, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675181294673613, "dur":70262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675181294743880, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675181294743888, "dur":905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675181294744807, "dur":47750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675181294792563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675181294792571, "dur":1013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675181294793598, "dur":23228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675181294816829, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675181294816837, "dur":862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675181294817714, "dur":28983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675181294846700, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675181294846708, "dur":1463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675181294848187, "dur":25465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675181294873657, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675181294873666, "dur":3103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675181294876786, "dur":71076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675181294947866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675181294947872, "dur":974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675181294948863, "dur":541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675181294949407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675181294949417, "dur":724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675181294950154, "dur":25579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675181294975738, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675181294975748, "dur":824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675181294976587, "dur":164460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675181295141052, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675181295141061, "dur":1307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675181295142381, "dur":242595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675181295384979, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675181295384985, "dur":2220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675181295387216, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1675181295387218, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675181294571019, "dur":519, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675181294571538, "dur":2896, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675181294574441, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1675181294574577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675181294576202, "dur":2205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1675181294578444, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1675181294578553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675181294578931, "dur":1759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1675181294580721, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1675181294580854, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675181294580861, "dur":1371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1675181294582258, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1675181294582334, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675181294582339, "dur":48583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1675181294630985, "dur":70976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675181294701965, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675181294701972, "dur":18820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675181294720829, "dur":53336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675181294774169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675181294774175, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675181294775199, "dur":36680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675181294811883, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675181294811891, "dur":1435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675181294813343, "dur":20110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675181294833457, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675181294833465, "dur":859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675181294834339, "dur":23524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675181294857866, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675181294857874, "dur":735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675181294858623, "dur":32615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675181294891244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675181294891252, "dur":899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675181294892166, "dur":90573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675181294982742, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675181294982750, "dur":1841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675181294984605, "dur":88067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675181295072679, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675181295072689, "dur":1433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675181295074140, "dur":118573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675181295192717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675181295192725, "dur":1292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675181295194058, "dur":193180, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675181294570992, "dur":537, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675181294571529, "dur":2911, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675181294574441, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1675181294574582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675181294576226, "dur":2293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1675181294578547, "dur":9069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1675181294587621, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675181294587630, "dur":43379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1675181294631036, "dur":29216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject.exe" }}
+,{ "pid":12345, "tid":3, "ts":1675181294660256, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675181294660263, "dur":1152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject.exe" }}
+,{ "pid":12345, "tid":3, "ts":1675181294661427, "dur":21866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675181294683296, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675181294683304, "dur":830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675181294684148, "dur":128554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675181294812705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675181294812711, "dur":3688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675181294816412, "dur":58875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675181294875291, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675181294875299, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675181294876323, "dur":107989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675181294984315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675181294984322, "dur":1601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675181294985938, "dur":100299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675181295086242, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675181295086252, "dur":837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675181295087106, "dur":122922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675181295210034, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675181295210044, "dur":1080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675181295211142, "dur":176103, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675181294571012, "dur":521, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675181294571533, "dur":2902, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675181294574441, "dur":10628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1675181294585072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675181294585116, "dur":45884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1675181294631031, "dur":6476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1675181294637509, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675181294637515, "dur":1315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1675181294638864, "dur":33640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675181294672510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675181294672518, "dur":975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675181294673515, "dur":22782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675181294696301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675181294696310, "dur":762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675181294697087, "dur":39920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675181294737010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675181294737052, "dur":930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675181294737995, "dur":24369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675181294762367, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675181294762375, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675181294763254, "dur":30684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675181294793942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675181294793950, "dur":759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675181294794722, "dur":42170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675181294836895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675181294836902, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675181294837845, "dur":26613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675181294864464, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675181294864474, "dur":902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675181294865392, "dur":116037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675181294981435, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675181294981444, "dur":1100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675181294982561, "dur":87237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675181295069804, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675181295069815, "dur":1208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675181295071039, "dur":141041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675181295212083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675181295212089, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675181295213386, "dur":173857, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675181294571047, "dur":495, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675181294571542, "dur":2897, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675181294574441, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1675181294574640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675181294576081, "dur":3615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1675181294579734, "dur":49254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1675181294628992, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675181294629001, "dur":2165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1675181294631198, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1675181294631271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675181294631454, "dur":12013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1675181294643504, "dur":21176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675181294664685, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675181294664694, "dur":802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675181294665512, "dur":20462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675181294685979, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675181294686008, "dur":798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675181294686820, "dur":143318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675181294830143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675181294830156, "dur":1671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675181294831840, "dur":147137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675181294978982, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675181294978991, "dur":1997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675181294981006, "dur":169501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675181295150512, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675181295150521, "dur":1308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675181295151845, "dur":157879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675181295309727, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675181295309734, "dur":828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675181295310570, "dur":76671, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675181294571071, "dur":475, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675181294571546, "dur":2895, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675181294574443, "dur":10551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1675181294585005, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675181294585071, "dur":46134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1675181294631234, "dur":18267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675181294649507, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675181294649724, "dur":639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675181294650377, "dur":95644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675181294746024, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675181294746051, "dur":822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675181294746887, "dur":25887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675181294772781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675181294772791, "dur":1070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675181294773879, "dur":26990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675181294800876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675181294800885, "dur":1082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675181294801987, "dur":114676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675181294916668, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675181294916677, "dur":1845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675181294918535, "dur":65057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675181294983596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675181294983603, "dur":1837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675181294985455, "dur":38755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675181295024236, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675181295024245, "dur":846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675181295025105, "dur":195138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675181295220245, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675181295220251, "dur":976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675181295221238, "dur":166015, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675181294571092, "dur":456, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675181294571548, "dur":2890, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675181294574442, "dur":10668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1675181294585113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675181294585125, "dur":46237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1675181294631394, "dur":35935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675181294667334, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675181294667342, "dur":882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675181294668240, "dur":70136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675181294738380, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675181294738386, "dur":820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675181294739220, "dur":34830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675181294774053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675181294774060, "dur":858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675181294774933, "dur":49499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675181294824438, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675181294824447, "dur":1474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675181294825941, "dur":25814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675181294851761, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675181294851770, "dur":953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675181294852740, "dur":43381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675181294896125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675181294896133, "dur":844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675181294896994, "dur":58879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675181294955876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675181294955883, "dur":700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675181294956596, "dur":84776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675181295041377, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675181295041388, "dur":850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675181295042252, "dur":219135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675181295261390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675181295261395, "dur":1468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675181295262875, "dur":124372, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675181294571115, "dur":436, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675181294571552, "dur":2890, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675181294574442, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1675181294574607, "dur":23, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675181294576110, "dur":55140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1675181294631280, "dur":21701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675181294652986, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675181294653067, "dur":679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675181294653760, "dur":25836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675181294679601, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675181294679610, "dur":917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675181294680544, "dur":34204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675181294714751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675181294714758, "dur":951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675181294715725, "dur":23726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675181294739455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675181294739462, "dur":928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675181294740412, "dur":21237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675181294761655, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675181294761664, "dur":905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675181294762583, "dur":23007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675181294785596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675181294785605, "dur":1073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675181294786696, "dur":32040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675181294818740, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675181294818749, "dur":2666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675181294821437, "dur":32175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675181294853616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675181294853624, "dur":872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675181294854511, "dur":157855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675181295012372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675181295012381, "dur":1535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675181295013931, "dur":40533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675181295054469, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675181295054477, "dur":806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675181295055298, "dur":199934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675181295255236, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675181295255244, "dur":1528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675181295256784, "dur":130465, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675181294571139, "dur":421, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675181294571560, "dur":2874, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675181294574441, "dur":23385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1675181294597830, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675181294598122, "dur":32605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1675181294630787, "dur":5041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675181294635833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675181294636040, "dur":1017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675181294637087, "dur":20063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675181294657164, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675181294657174, "dur":867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675181294658058, "dur":29583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675181294687645, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675181294687653, "dur":971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675181294688640, "dur":25049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675181294713695, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675181294713704, "dur":851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675181294714570, "dur":51160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675181294765735, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675181294765744, "dur":896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675181294766657, "dur":45943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675181294812604, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675181294812613, "dur":3245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675181294815875, "dur":20312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675181294836192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675181294836201, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675181294837497, "dur":22720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675181294860223, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675181294860232, "dur":849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675181294861097, "dur":49681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675181294910783, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675181294910792, "dur":1258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675181294912065, "dur":35728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675181294947798, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675181294947834, "dur":3816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675181294951664, "dur":662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675181294952330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675181294952339, "dur":798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675181294953153, "dur":104788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675181295057946, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675181295057955, "dur":1080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675181295059052, "dur":44219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675181295103277, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675181295103308, "dur":831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675181295104153, "dur":114206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675181295218363, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675181295218370, "dur":997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675181295219379, "dur":167865, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675181294571160, "dur":404, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675181294571564, "dur":2880, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675181294574445, "dur":11032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1675181294585480, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675181294585485, "dur":45903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1675181294631440, "dur":43671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675181294675115, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675181294675123, "dur":1286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675181294676425, "dur":27731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675181294704161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675181294704169, "dur":866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675181294705049, "dur":99267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675181294804322, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675181294804332, "dur":2256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675181294806608, "dur":30154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675181294836766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675181294836773, "dur":1922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675181294838709, "dur":53305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675181294892018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675181294892040, "dur":884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675181294892938, "dur":282759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675181295175703, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675181295175712, "dur":1083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675181295176810, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":10, "ts":1675181295176887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675181295177228, "dur":663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":10, "ts":1675181295177906, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1675181295177920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675181295177994, "dur":903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1675181295178911, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1675181295178924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675181295178930, "dur":684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1675181295179627, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1675181295179639, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675181295179644, "dur":746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1675181295180404, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1675181295180474, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675181295180480, "dur":659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1675181295181150, "dur":795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1675181295181949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675181295181956, "dur":788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1675181295182757, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/level0.resS" }}
+,{ "pid":12345, "tid":10, "ts":1675181295182772, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675181295182777, "dur":942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/level0.resS" }}
+,{ "pid":12345, "tid":10, "ts":1675181295183732, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1675181295183745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675181295183750, "dur":643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1675181295184406, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1675181295184420, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675181295184425, "dur":778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1675181295185215, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1675181295185227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675181295185249, "dur":677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1675181295185938, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1675181295186006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675181295186011, "dur":650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1675181295186674, "dur":200563, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675181294571177, "dur":391, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675181294571568, "dur":2879, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675181294574447, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1675181294574586, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675181294576115, "dur":3409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1675181294579558, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1675181294579657, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675181294579701, "dur":51187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1675181294630925, "dur":23966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675181294654895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675181294654966, "dur":5926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675181294660925, "dur":21059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675181294681990, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675181294681999, "dur":1274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675181294683292, "dur":50623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675181294733921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675181294733930, "dur":2347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675181294736290, "dur":30986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675181294767280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675181294767288, "dur":761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675181294768062, "dur":62509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675181294830575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675181294830582, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675181294831721, "dur":24854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675181294856580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675181294856588, "dur":1276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675181294857881, "dur":44521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675181294902407, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675181294902417, "dur":1152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675181294903584, "dur":26931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675181294930520, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675181294930530, "dur":906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675181294931452, "dur":2965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675181294934423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675181294934432, "dur":911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675181294935363, "dur":5615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675181294940983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675181294940992, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675181294941966, "dur":31005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675181294972979, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675181294972988, "dur":2923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675181294975927, "dur":141660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675181295117592, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675181295117601, "dur":1260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675181295118876, "dur":47376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675181295166257, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675181295166267, "dur":3915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675181295170200, "dur":20160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675181295190365, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675181295190374, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675181295191252, "dur":195987, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675181294571203, "dur":431, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675181294571634, "dur":2802, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675181294574441, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1675181294574604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675181294576074, "dur":55122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1675181294631234, "dur":63172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675181294694414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675181294694422, "dur":1029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675181294695466, "dur":38479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675181294733948, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675181294733954, "dur":2304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675181294736273, "dur":38368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675181294774660, "dur":233, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675181294775002, "dur":1512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675181294776530, "dur":34902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675181294811437, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675181294811446, "dur":3369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675181294814832, "dur":30742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675181294845580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675181294845589, "dur":902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675181294846508, "dur":45836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675181294892347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675181294892354, "dur":3468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675181294895838, "dur":21432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675181294917274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675181294917281, "dur":694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675181294918007, "dur":36705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675181294954717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675181294954725, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675181294955729, "dur":254605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675181295210337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675181295210342, "dur":2927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LENOVO/Desktop/FinalProject_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675181295213289, "dur":173946, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675181295389642, "dur":1469, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1675181295395236, "dur": 1455, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675181295395020, "dur": 1690, "ph": "X", "name": "Write chrome-trace events", "args": {} },
